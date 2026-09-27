@@ -1,0 +1,1 @@
+sum(rate(http_requests_total[1m])) = 200.26 RPS (суммарно по всем подам)

@@ -1,0 +1,130 @@
+kubectl get --raw /apis/custom.metrics.k8s.io/v1beta1/namespaces/default/pods/*/http_requests_per_second
+(снято после окончания нагрузки, поэтому значения 0 — метрика отдаётся по каждому поду)
+
+{
+    "kind": "MetricValueList",
+    "apiVersion": "custom.metrics.k8s.io/v1beta1",
+    "metadata": {},
+    "items": [
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-4vrcl",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-c7t9f",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-jm4lz",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-k99nf",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-ngcdb",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-q6ps6",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-r59dw",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-vgldl",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-w6njt",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        },
+        {
+            "describedObject": {
+                "kind": "Pod",
+                "namespace": "default",
+                "name": "scaletestapp-d487f64c9-wtkht",
+                "apiVersion": "/v1"
+            },
+            "metricName": "http_requests_per_second",
+            "timestamp": "2026-09-27T17:47:03Z",
+            "value": "0",
+            "selector": null
+        }
+    ]
+}
