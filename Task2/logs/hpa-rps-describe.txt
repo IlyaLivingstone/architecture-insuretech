@@ -1,0 +1,18 @@
+Metrics:                               ( current / target )
+  "http_requests_per_second" on pods:  29943m / 10
+Min replicas:                          1
+Max replicas:                          10
+Deployment pods:                       10 current / 10 desired
+Conditions:
+  Type            Status  Reason            Message
+  ----            ------  ------            -------
+  AbleToScale     True    ReadyForNewScale  recommended size matches current size
+  ScalingActive   True    ValidMetricFound  the HPA was able to successfully calculate a replica count from pods metric http_requests_per_second
+  ScalingLimited  True    TooManyReplicas   the desired replica count is more than the maximum replica count
+Events:
+Events:
+  Type    Reason             Age    From                       Message
+  ----    ------             ----   ----                       -------
+  Normal  SuccessfulRescale  6m12s  horizontal-pod-autoscaler  New size: 4; reason: pods metric http_requests_per_second above target
+  Normal  SuccessfulRescale  5m57s  horizontal-pod-autoscaler  New size: 8; reason: pods metric http_requests_per_second above target
+  Normal  SuccessfulRescale  5m42s  horizontal-pod-autoscaler  New size: 10; reason: pods metric http_requests_per_second above target

@@ -1,0 +1,119 @@
+=== t=15s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   0/10      1         10        1          42s
+scaletestapp-5d6d869c65-rsqk8 Running
+  rps/pod: 0.0
+=== t=30s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   0/10      1         10        1          58s
+scaletestapp-5d6d869c65-rsqk8 Running
+=== t=45s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   48824m/10   1         10        1          73s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+=== t=60s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   105190m/10   1         10        4          88s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=75s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   40429m/10   1         10        8          104s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=90s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   28500m/10   1         10        10         119s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=105s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   20047m/10   1         10        10         2m15s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=120s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   19999m/10   1         10        10         2m30s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=135s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   19959m/10   1         10        10         2m45s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=150s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   20041m/10   1         10        10         3m1s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=165s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   20068m/10   1         10        10         3m16s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running
+=== t=180s ===
+scaletestapp-hpa-rps   Deployment/scaletestapp   20039m/10   1         10        10         3m31s
+scaletestapp-5d6d869c65-6pkhl Running
+scaletestapp-5d6d869c65-6rm4h Running
+scaletestapp-5d6d869c65-7hbm7 Running
+scaletestapp-5d6d869c65-cxtbr Running
+scaletestapp-5d6d869c65-lzgl9 Running
+scaletestapp-5d6d869c65-q5s46 Running
+scaletestapp-5d6d869c65-rsqk8 Running
+scaletestapp-5d6d869c65-slgzr Running
+scaletestapp-5d6d869c65-thrwd Running
+scaletestapp-5d6d869c65-vbqpb Running

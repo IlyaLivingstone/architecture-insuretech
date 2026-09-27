@@ -1,0 +1,11 @@
+Всего активных целей: 25
+job=scaletestapp | http://10.244.0.24:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:30.296871958Z
+job=scaletestapp | http://10.244.0.26:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:26.545806242Z
+job=scaletestapp | http://10.244.0.27:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:22.276474729Z
+job=scaletestapp | http://10.244.0.7:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:31.208872726Z
+job=scaletestapp | http://10.244.0.22:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:21.950567598Z
+job=scaletestapp | http://10.244.0.23:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:31.638171524Z
+job=scaletestapp | http://10.244.0.25:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:33.242863654Z
+job=scaletestapp | http://10.244.0.19:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:27.158504891Z
+job=scaletestapp | http://10.244.0.20:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:19.210077407Z
+job=scaletestapp | http://10.244.0.21:8080/metrics | health: up | lastScrape: 2026-09-27T17:01:28.947413234Z
